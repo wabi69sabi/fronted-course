@@ -1,0 +1,43 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spin Spin</title>
+  </head>
+  <body>
+
+    <table border="2" id="spin">
+      <tr>
+        <th>I totally</th>
+        <th>Didn't</th>
+      </tr>
+      <tr>
+        <td>Steal</td>
+        <td>Your</td>
+      </tr>
+      <tr>
+        <td>Html</td>
+        <td>code</td>
+      </tr>
+    </table>
+
+    <style>
+        #spin{
+        color: black;
+        position: relative;
+        animation-name: fancy;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        }
+        @keyframes fancy {
+            0%   {background-color:black; left:10%; top:10%; color:white;}
+            25%  {background-color:red; left:50%; top:0%; color:yellow; transform:rotate(90deg);}
+            50%  {background-color:yellow; left:50%px; top:50%; color: red; transform:rotate(180deg);}
+            75%  {background-color:red; left:0%; top:50%; color: yellow; transform:rotate(270deg);}
+            100% {background-color:black; left:10%; top:10%; color:white; transform:rotate(360deg);}
+        }
+    </style>
+
+  </body>
+</html>
