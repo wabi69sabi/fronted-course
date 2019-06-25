@@ -1,0 +1,35 @@
+tr:nth-child(even) {
+  background-color: green
+}
+
+.box-set {
+  /* background: #eaeaed; */
+}
+.box {
+  background: #2db34a;
+  float: right;
+  margin: 1.858736059%;
+  width: 29.615861214%;
+}
+
+.box2 {
+  background: purple;
+  float: left;
+  margin: 1.858736059%;
+  width: 29.615861214%;
+}
+
+.box3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
