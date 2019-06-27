@@ -1,0 +1,47 @@
+.arial-example {
+  font-family: arial;
+}
+.helvetica-example {
+  font-family: helvetica;
+}
+.osans-example {
+  font-family: sans-serif;
+}
+.nroman-example {
+  font-family: times;
+}
+.impact-example {
+  font-family: impact;
+}
+.comic-example {
+  font-family: "Comic Sans MS";
+}
+
+/* this particular font requires an additional stylesheet to be added */
+.lato-example {
+  font-family: 'Lato';
+}
+
+/* styles for sized Tables */
+.styled {
+  width: 80%;
+  border-collapse: inherit;
+  border: 20px dotted green;
+}
+
+li {
+  font-size: 25px;
+}
+
+/* multiple columns */
+header {
+  text-align: center;
+  column-span: all;
+}
+.three-columns {
+  column-count: 3;
+}
+footer {
+  column-span: all;
+  text-align: right;
+}
