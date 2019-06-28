@@ -2,8 +2,8 @@
   font-family: 'Aaargh';
   src: url('Aaargh.eot'); /* IE9 Compat Modes */
   src: url('Aaargh.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Aaargh.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Aaargh.woff') format('woff'), /* Pretty Modern Browsers */
+       /* url('Aaargh.woff2') format('woff2'), /* Super Modern Browsers */ */
+       /* url('Aaargh.woff') format('woff'), /* Pretty Modern Browsers */ */
        url('Aaargh.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('Aaargh.svg#svgAaargh') format('svg'); /* Legacy iOS */
 }
