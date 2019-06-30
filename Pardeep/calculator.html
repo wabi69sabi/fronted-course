@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+    <title>JavaScript Calculator</title>
+  </head>
+  <body>
+    <input type="text" id="num1" placeholder="Enter Number">
+    <input type="text" id="num2" placeholder="Enter Number">
+    <select id="sel">
+      <option value="">Select</option>
+      <option value="division">division</option>
+      <option value="substract">substract</option>
+      <option value="addition">addition</option>
+      <option value="multiply">multiply</option>
+    </select>
+    <input type="submit" onclick="addition()" value="submit">
+    <br>
+    <div id="result"></div>
+
+    <h2>Source:</h2>
+    <p>
+      <a href="https://www.codentricks.com/pure-javascript-simple-calculator-tutorial/">This page's source code</a>
+    </p>
+
+    <h1>Alternative Examples:</h1>
+    <ul>
+      <li>
+        <a href="https://webdevtrick.com/basic-javascript-calculator-source-code/">Nice Graphical Example</a>
+      </li>
+    </ul>
+    <script>
+      function addition(){
+        var num1 = parseFloat(document.getElementById("num1").value);
+        var num2 = parseFloat(document.getElementById("num2").value);
+        var sel = document.getElementById("sel").value;
+        var result;
+        if(sel=='addition'){
+          result = num1+num2;
+        } else if(sel=='substract'){
+          result = num1-num2;
+        } else if(sel=='division'){
+          result = num1/num2;
+        } else{
+          result = num1*num2;
+        }
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>
+  </body>
+</html>
