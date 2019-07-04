@@ -1,0 +1,34 @@
+nav {
+  background-color: purple;
+  top: 0;
+}
+
+nav li, footer li {
+  list-style: none;
+  display: inline;
+}
+
+body {
+  background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/06/Linux-wallpapers-33.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color: chartreuse;
+}
+
+footer {
+    background-color: green;
+    bottom: 0;
+}
+
+aside {
+  float: right;
+  margin-right: 20px;
+  margin-top: -50px;
+}
+
+/* this is a class to make this css more DRY */
+nav, footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
