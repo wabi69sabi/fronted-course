@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+.linux img, p {
+  float: left;
+}
+
+.windows img, p {
+  float: right;
+}
