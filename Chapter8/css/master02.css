@@ -9,6 +9,8 @@ nav li, footer li {
 }
 
 body {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url(https://cdn.wallpapersafari.com/57/0/exaytd.jpg);
   background-size:cover;
   background-repeat:no-repeat;
@@ -32,9 +34,24 @@ nav, footer {
   position: fixed;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  z-index: 2;
 }
 
 p {
   color: lavender;
+}
+
+section {
+  background-color: yellow;
+  opacity: 0.75;
+  position: relative;
+  left: -10px;
+  display: flex;
+  z-index: 1;
+}
+
+section p {
+  color: red;
+  padding-left: 20px;
+  padding-right: 20px;
 }
