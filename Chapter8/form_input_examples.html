@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms and Input fields</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>These are the examples by Jennifer Kyrnin</h1>
+      </header>
+    </section>
+    <section>
+      <h1>First Video</h1>
+      <form>
+        <p><label>First Name: <input id="firstname" type="text"></label></p>
+        <p><label for="email">Email: </label><input id="email" placeholder="email address"></p>
+        <p><label>Comments: <textarea cols="30" rows="4" placeholder="Post your comments"></textarea></label></p>
+        <p><input id="submit" type="submit"></p>
+      </form>
+    </section>
+
+    <section>
+      <h1>Second Video</h1>
+      <form>
+        <p><label>First Name: <input id="firstname" type="text" placeholder="enter your name"></label></p>
+        <p><label for="email">Email:</label><input id="email" type="email" placeholder="email address"></p>
+        <p><label for="url">URL:</label><input id="url" type="url" placeholder="http://"></p>
+        <p><label for="password">Password:</label><input type="password" id="password"></p>
+        <p><label for="date">Date:</label><input id="date" type="date" placeholder="12/16/15"></p>
+        <p><label for="time">Time:</label><input id="time" type="time" placeholder="1:30pm"></p>
+        <p><label for="number">Number:</label><input id="number" type="number" min="0" max="10"></p>
+        <p><label for="range">Range:</label><input id="range" type="range"></p>
+        <p><label for="tel">Telephone:</label><input id="tel" type="tel" placeholder="xxx-xxx-xxxx"></p>
+        <p><label for="color">Color:</label><input id="color" type="color"></p>
+        <p><label>Comments: <textarea cols="30" rows="4" placeholder="Post your comments"></textarea></label></p>
+        <p><input id="submit" type="type" value="Click to Submit Form"></p>
+      </form>
+    </section>
+
+    <section>
+      <h1>Third Video</h1>
+      <form>
+        <p><input type="radio" id="mybutton" name="radiogroup" value="1"><label for="mybutton">Pick me</label><br>
+          <input type="radio" id="mybutton2" name="radiogroup" value="2"><label for="mybutton2">No, Pick me</label>
+        </p>
+        <p>
+          <input type="checkbox" id="mycheckbox" value="cb1"><label for="mycheckbox">Check</label>
+          <input type="checkbox" id="mycheckbox2" value="cb2"><label for="mycheckbox2">Check Check</label>
+        </p>
+        <p>
+          <select id="myselect">
+            <option value="">
+            <option value="1">option 1
+            <option value="2">option 2
+          </select>
+        </p>
+        <p>
+          <select multiple="true" id="mymulti">
+            <option value="">
+            <option value="1">option 1
+            <option value="2">option 2
+            <option value="3">option 3
+          </select>
+        </p><input id="submit" type="type" value="Click to Submit Form">
+      </form>
+    </section>
+
+    <section>
+      <h2>Fourth Video (HTML5 Validations)</h2>
+      <form>
+        <p><span class="required">*</span><label for="name">Name:</label></p><br>
+        <input type="text" id="name" placeholder="First and Last Name" class="required" required>
+        <p><span class="required">*</span><label for="email">Email:</label></p><br>
+        <input type="email" id="email" class="required email" required>
+        <p><label for="phone">Phone:</label><br>
+        <input type="text" id="phone" placeholder="(###) ###-####" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}">
+        <p><label for="url">URL:</label><br>
+        <input type="url" id="URL">
+        <p><label for="description">Job Description:</label><br>
+        <textarea id="description" class="required"></textarea>
+        <p><label for="replyBy">Need response by:</label><br>
+        <input type="date" id="replyBy" class="required" required>
+        <p><span class="required">*</span><label for="budget">How much can you spend?</label><br>
+        $<input type="number" id="budget" min=300 max=5000 step=100 placeholder="Minimun $300" class="required" required>
+        <p>
+        <input type="submit" value="Submit Request">
+      </form>
+    </section>
+  </body>
+</html>
