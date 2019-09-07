@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic JS example</title>
+    <script type="text/javascript" src="basic.js"></script>
+    <link rel="stylesheet" href="basic.css">
+  </head>
+  <body>
+    <h1>Some Basic Buttons with JS</h1>
+    <p>Enter a sentence and click the button to return the longest word.</p>
+    <form name="changeform">
+      <input type="text" name="sentence" size="65" />
+      <button type="button" name="button" onclick="longestWord()">Click Me!</button>
+    </form>
+    <h1>Result:</h1>
+    <div class="box" id="output">
+      Longest Word
+    </div>
+    <div class="box2" id="repetition">
+
+    </div>
+    <script type="text/javascript">
+      document.onload = repetition();
+    </script>
+  </body>
+</html>

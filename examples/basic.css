@@ -1,0 +1,15 @@
+button {
+  margin: 3em 3em 0 3em;
+}
+
+.box {
+  border-radius: 4px;
+  border: 2px solid;
+  border-color: red;
+  padding: 2px;
+  width: 50%;
+}
+
+.box2 {
+  padding: 10px;
+}
